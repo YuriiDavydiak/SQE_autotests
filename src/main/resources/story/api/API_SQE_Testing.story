@@ -54,7 +54,7 @@ When I set request headers:
 When I execute HTTP PUT request for resource with URL `https://petstore.swagger.io/v2/pet`
 Then response code is equal to `200`
 
-Scenario: Verify that allows deleting Pet
+Scenario:  Verify that allows deleting Pet
 Given request body: {"id":11,"category": {"id": 0,"name": "dog"},"name": "dog1","photoUrls": ["https://storage-api.petstory.ru/d4/8a/ff/d48affbedd2c415a8ccfb72b2b7a8292.jpeg"],"tags": [{"id": 0,"name": "string"}],"status": "available"}
 When I set request headers:
 |name                 |value                          |
